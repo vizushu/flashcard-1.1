@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="3"
+            tests="4">
+
+  <testsuite name="test"
+    errors="0" failures="3" hostname="" id="" package="test" skipped="0"
+    tests="4" time="23.61" timestamp="Fri, 23 Mar 2018 04:20:15 GMT">
+  
+    <testcase name="EXPECTED ELEMENTS TEST" classname="test" time="4.004" assertions="2">  <failure message="Testing if element &lt;title&gt; is present.">    at Object.EXPECTED ELEMENTS TEST (/Users/Renier/Desktop/DevMtn/flashcard/nightwatch/tests/test.js:14:21)
+    at process._tickCallback (internal/process/next_tick.js:112:11)</failure>
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="LOG IN TEST" classname="test" time="4.670" assertions="2">  <failure message="Testing if element &lt;body &gt; div.main &gt; div.content &gt; div &gt; div.tabsContainer &gt; div:nth-child(1) &gt; div &gt; input[type=&#34;email&#34;]&gt; contains text: &#34;vizushu@live.com&#34;.">    at Object.LOG IN TEST (/Users/Renier/Desktop/DevMtn/flashcard/nightwatch/tests/test.js:24:21)
+    at process._tickCallback (internal/process/next_tick.js:112:11)</failure>
+
+      <failure message="Testing if element &lt;body &gt; div.main &gt; div.content &gt; div &gt; div.tabsContainer &gt; div:nth-child(3) &gt; div &gt; input[type=&#34;password&#34;]&gt; contains text: &#34;Crub9swaw+&#34;.">    at Object.LOG IN TEST (/Users/Renier/Desktop/DevMtn/flashcard/nightwatch/tests/test.js:28:21)
+    at process._tickCallback (internal/process/next_tick.js:112:11)</failure>
+
+    
+    </testcase>
+  
+    <testcase name="ELEMENT PRESENT AFTER LOGIN" classname="test" time="10.50" assertions="10">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="DECK TEST" classname="test" time="4.441" assertions="1">  <failure message="Timed out while waiting for element &lt;body &gt; div.main &gt; div.content &gt; div &gt; div.grid-list &gt; div.grid.help &gt; div &gt; label&gt; to be present for 2000 milliseconds.">    at Object.DECK TEST (/Users/Renier/Desktop/DevMtn/flashcard/nightwatch/tests/test.js:57:14)
+    at process._tickCallback (internal/process/next_tick.js:112:11)</failure>
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>
