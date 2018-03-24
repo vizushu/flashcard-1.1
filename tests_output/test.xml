@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="1"
             failures="0"
-            tests="3">
+            tests="1">
 
   <testsuite name="test"
-    errors="1" failures="0" hostname="" id="" package="test" skipped="2"
-    tests="3" time="0.01100" timestamp="Fri, 23 Mar 2018 03:22:54 GMT">
+    errors="1" failures="0" hostname="" id="" package="test" skipped="0"
+    tests="1" time="0.006000" timestamp="Sat, 24 Mar 2018 00:56:51 GMT">
   
-    <testcase name="EXPECTED ELEMENTS TEST" classname="test" time="0.01100" assertions="0">
+    <testcase name="DECK TEST" classname="test" time="0.006000" assertions="0">
     </testcase>
   
 
   
     <system-err>
-        Error while running [Test / EXPECTED ELEMENTS TEST]:
+        Error while running [Test / DECK TEST]:
 
-  TypeError: browser.url(...).verify.waitForElementVisible is not a function
-    at Object.EXPECTED ELEMENTS TEST (/Users/Renier/Desktop/DevMtn/flashcard/nightwatch/tests/test.js:14:21)
+  TypeError: Cannot read property &#39;AppLoad&#39; of undefined
+    at Object.DECK TEST (/Users/Renier/Desktop/DevMtn/flashcard/nightwatch/tests/test.js:20:9)
     at Module.call (/usr/local/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
     at /usr/local/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
     at _fulfilled (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
@@ -29,18 +29,6 @@
     </system-err>
   
 
-  
-    
-    <testcase
-      name="LOG IN TEST" classname="test">
-      <skipped />
-    </testcase>
-    
-    <testcase
-      name="DECK TEST" classname="test">
-      <skipped />
-    </testcase>
-    
   
   </testsuite>
 </testsuites>
